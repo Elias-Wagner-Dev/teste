@@ -120,7 +120,16 @@ main {
     justify-content: space-around;
     align-items: center;
 }
-
+#imgCard{
+    width: 400px;
+    height: 350px;
+    transition: 1s;
+}
+#imgCard:hover{
+    width: 430px;
+    height: 380px;
+    
+}
 .infoCard{
     width: 90%;
     height: 350px;
@@ -151,9 +160,16 @@ main {
     height: 350px;
     background-color: #ffffff;
     transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card:hover{
     width: 430px;
     height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
