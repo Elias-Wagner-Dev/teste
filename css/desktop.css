@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+header {
+    width: 100%;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #191919;
+}
+
+main {
+    width: 100%;
+    height: 2300px;
+    background-color: #191919;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#sectionBanner {
+    width: 100%;
+    height: 600px;
+}
+
+#sectionInfo{
+    width: 100%;
+    height: 3000px;
+}
+#sectionCard{
+    width: 100%;
+    height: 600px;
+}
+
+#banner {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#textBanner {
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#textXbox {
+    color: #ffffff;
+    font-size: 28px;
+    margin-top: 30%;
+    transition: 1s;
+}
+
+#textXbox:hover{
+    color: #000fff;
+}
+
+#textXbox2 {
+    color: #ffffff;
+    font-size: 32px;
+    transition: 1s;
+}
+#textXbox2:hover{
+    color: #000fff;
+    font-size: 35px;
+}
+
+#imgBanner {
+    width: 50%;
+    height: 600pxpx;
+}
+
+#imgXbox {
+    width: 550px;
+    height: 550px;
+}
+
+#button {
+    width: 110px;
+    height: 45px;
+    background-color: #ffffff;
+    border-radius: 35px;
+    margin-top: 20px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#button:hover{
+    width: 120px;
+    height: 55px;
+    background-color: #ff0000f0;
+    color: #ffffff;
+}
+
+
+#cards {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    width: 400px;
+    height: 350px;
+    background-color: #ffffff;
+    transition: 1s;
+}
+
+.card:hover{
+    width: 430px;
+    height: 380px;
+}
