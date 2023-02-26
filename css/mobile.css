@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+@media (max-width: 858px){
+
+    header {
+        width: 100%;
+        height: 52px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #191919;
+    }
+    
+    main {
+        width: 100%;
+        height: 2300px;
+        background-color: #191919;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    #sectionBanner {
+        width: 100%;
+        height: 600px;
+    }
+    
+    #sectionInfo{
+        width: 100%;
+        height: 3000px;
+    }
+
+}

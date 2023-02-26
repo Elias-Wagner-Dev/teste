@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+@media (min-width:858px) and (max-width: 1213px){
+
+    header {
+        width: 100%;
+        height: 52px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #191919;
+    }
+    
+    main {
+        width: 100%;
+        height: 2300px;
+        background-color: #191919;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    #sectionBanner {
+        width: 100%;
+        height: 600px;
+    }
+    
+    #sectionInfo{
+        width: 100%;
+        height: 3000px;
+    }
+    #sectionCard{
+        width: 100%;
+        height: 600px;
+    }
+    
+    #imgLogo{
+        width: 32px;
+        height: 32px;
+    }
+    
+    #banner {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    
+    #textBanner {
+        width: 50%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    #textXbox {
+        color: #ffffff;
+        font-size: 22px;
+        margin-top: 30%;
+        transition: 1s;
+    }
+    
+    #textXbox:hover{
+        color: #000fff;
+    }
+    
+    #textXbox2 {
+        color: #ffffff;
+        font-size: 25px;
+        transition: 1s;
+    }
+    #textXbox2:hover{
+        color: #000fff;
+        font-size: 35px;
+    }
+    
+    #imgBanner {
+        width: 50%;
+        height: 600pxpx;
+    }
+    
+    #imgXbox {
+        width: 550px;
+        height: 550px;
+    }
+    
+    #button {
+        width: 110px;
+        height: 45px;
+        background-color: #ffffff;
+        border-radius: 35px;
+        margin-top: 20px;
+        transition: 1s;
+        cursor: pointer;
+    }
+    
+    #button:hover{
+        width: 120px;
+        height: 55px;
+        background-color: #88ff00d3;
+        color: #ffffff;
+    }
+    
+    #info{
+        width: 100%;
+        height: 1300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    
+    #cards {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .card:nth-child(3){
+        display: none;
+    }
+    .imgCard{
+        width: 400px;
+        height: 350px;
+        transition: 1s;
+    }
+    .imgCard:hover{
+        width: 430px;
+        height: 380px;
+        
+    }
+
+    .infoCard{
+        width: 90%;
+        height: 350px;
+        border-radius: 80px;
+        box-shadow: 0px 0px 3px 0px #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .textinfo{
+        width: 700px;
+    }
+    
+    .imgInfo{
+        width: 300px;
+        height: 300px;
+        margin-left: 25px;
+    }
+    .textPonto{
+        color: #ffffff;
+        margin-left: 30px;
+        font-size: 22px;
+    
+    }
+    
+    .card {
+        width: 200px;
+        height: 150px;
+        background-color: #ffffff;
+        transition: 1s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card:hover{
+        width: 230px;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
