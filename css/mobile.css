@@ -81,13 +81,14 @@
     }
 
     #button{
+        position: fixed;
         width: 90px;
         height: 35px;
         background-color: #ffffff;
         border-radius: 35px;
         margin-top: 20px;
         transition: 1s;
-        cursor: pointer;
+        
     }
 
     #info{
@@ -114,7 +115,7 @@
     .textPonto{
         color: #ffffff;
         margin-left: 30px;
-        font-size: 15px;
+        font-size: 12px;
     
     }
 
