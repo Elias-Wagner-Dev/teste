@@ -22,16 +22,35 @@
     }
     
     #sectionBanner {
+        margin-top: 10px;
         width: 100%;
         height: 300px;
     }
     
     #sectionInfo{
         width: 100%;
-        height: 3000px;
+        height: 1000px;
+    }
+    #imgLogo{
+        width: 32px;
+        height: 32px;
     }
 
+    #imgXbox{
+        width: 250px;
+        height: 250px;
+    }
+
+    #imgBanner{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
     #banner{
+        margin-top: 20px;
         width: 100%;
         height: 300px;
         display: flex;
@@ -40,11 +59,63 @@
         justify-content: center;
 
     }
+    #textBanner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 
     #textXbox{
-         font-size: 22;
+         font-size: 25;
          color: #ffffff;
-         
+
+    }
+    #textXbox2{
+        font-size: 28px;
+        color: #ffffff;
+    }
+
+    #imgBanner{
+        width: 300px;
+    }
+
+    #button{
+        width: 90px;
+        height: 35px;
+        background-color: #ffffff;
+        border-radius: 35px;
+        margin-top: 20px;
+        transition: 1s;
+        cursor: pointer;
+    }
+
+    #info{
+        margin-top: 20px;
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .infoCard{
+        width: 90%;
+        height: 200px;
+        border-radius: 80px;
+        box-shadow: 0px 0px 3px 0px #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    .textPonto{
+        color: #ffffff;
+        margin-left: 30px;
+        font-size: 15px;
+    
     }
 
 }
