@@ -1,6 +1,12 @@
 @charset "UTF-8";
+html{
+    overflow-x: hidden;
+}
+@media (max-width: 858px) {
 
-@media (max-width: 858px){
+    html{
+        overflow-x: hidden;
+    }
 
     header {
         width: 100%;
@@ -10,46 +16,49 @@
         align-items: center;
         background-color: #191919;
     }
-    
+
     main {
         width: 100%;
-        height: 2300px;
+        height: 1800px;
         background-color: #191919;
         display: flex;
         flex-direction: column;
         align-items: center;
-    
+
     }
-    
+
     #sectionBanner {
         margin-top: 10px;
         width: 100%;
         height: 300px;
     }
-    
-    #sectionInfo{
+
+    #sectionInfo {
         width: 100%;
-        height: 1000px;
+        height: 780px;
     }
-    #imgLogo{
+
+  
+
+    #imgLogo {
         width: 32px;
         height: 32px;
     }
 
-    #imgXbox{
+    #imgXbox {
         width: 250px;
         height: 250px;
     }
 
-    #imgBanner{
+    #imgBanner {
         width: 100%;
         height: 300px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    
-    #banner{
+
+    #banner {
         margin-top: 20px;
         width: 100%;
         height: 300px;
@@ -59,41 +68,43 @@
         justify-content: center;
 
     }
-    #textBanner{
+
+    #textBanner {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
 
-    #textXbox{
-         font-size: 25;
-         color: #ffffff;
+    #textXbox {
+        font-size: 25;
+        color: #ffffff;
 
     }
-    #textXbox2{
+
+    #textXbox2 {
         font-size: 28px;
         color: #ffffff;
     }
 
-    #imgBanner{
+    #imgBanner {
         width: 300px;
     }
 
-    #button{
-       
+    #button {
+
         width: 90px;
         height: 35px;
         background-color: #ffffff;
         border-radius: 35px;
         margin-top: 20px;
         transition: 1s;
-        
+
     }
 
-   
 
-    #info{
+
+    #info {
         margin-top: 20px;
         width: 100%;
         height: 700px;
@@ -103,22 +114,40 @@
         align-items: center;
     }
 
-    .infoCard{
-        width: 90%;
+    .infoCard {
+        width: 300px;
         height: 200px;
         border-radius: 80px;
         box-shadow: 0px 0px 3px 0px #ffffff;
         display: flex;
         align-items: center;
         justify-content: center;
-    
+
     }
 
-    .textPonto{
+    .textPonto {
         color: #ffffff;
         margin-left: 30px;
         font-size: 11px;
-    
+
     }
 
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: center;
+        height: 800px;
+    }
+
+    .card{
+        width: 200px;
+        height: 230px;
+
+    }
+
+    .imgCard{
+        width: 250px;
+        height: 200px;
+    }
 }
