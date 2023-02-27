@@ -81,7 +81,7 @@
     }
 
     #button{
-        position: fixed;
+       
         width: 90px;
         height: 35px;
         background-color: #ffffff;
@@ -90,6 +90,8 @@
         transition: 1s;
         
     }
+
+   
 
     #info{
         margin-top: 20px;
